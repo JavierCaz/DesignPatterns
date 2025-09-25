@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Creational.FactoryMethod.Creators
 {
-    internal class PdfDocumentCreator : DocumentCreator
+    internal class EngineeringDepartment : Department
     {
-        public override IDocument CreateDocument() => new PdfDocument();
+        public override IEmployee HireEmployee() => new Developer();
     }
 }

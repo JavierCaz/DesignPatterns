@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Creational.FactoryMethod.Products
 {
-    internal interface IDocument
+    internal class Developer : IEmployee
     {
-        void Print();
+        public void DescribeRole() => Console.WriteLine("I write code.");
     }
 }

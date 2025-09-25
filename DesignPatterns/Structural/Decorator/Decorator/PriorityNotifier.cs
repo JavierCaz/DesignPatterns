@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Concrete Decorator
 namespace DesignPatterns.Structural.Decorator.Decorator
 {
     internal class PriorityNotifier : NotifierDecorator

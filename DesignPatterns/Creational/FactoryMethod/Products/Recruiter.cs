@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Creational.FactoryMethod.Products
 {
-    internal class WordDocument : IDocument
+    internal class Recruiter : IEmployee
     {
-        public void Print() => Console.WriteLine("Printing Word Document");
+        public void DescribeRole() => Console.WriteLine("I hire people.");
     }
 }

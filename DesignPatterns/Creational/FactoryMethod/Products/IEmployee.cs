@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Product Interface
 namespace DesignPatterns.Creational.FactoryMethod.Products
 {
-    internal class PdfDocument : IDocument
+    internal interface IEmployee
     {
-        public void Print() => Console.WriteLine("Printing PDF Document");
+        void DescribeRole();
     }
 }

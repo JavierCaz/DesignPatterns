@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Creator
 namespace DesignPatterns.Creational.FactoryMethod.Creators
 {
-    internal class WordDocumentCreator : DocumentCreator
+    internal abstract class Department
     {
-        public override IDocument CreateDocument() => new WordDocument();
+        public abstract IEmployee HireEmployee();
     }
 }

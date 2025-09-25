@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Decorator
 namespace DesignPatterns.Structural.Decorator.Decorator
 {
     internal class NotifierDecorator : INotifier

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Adapter
 namespace DesignPatterns.Structural.Adapter
 {
     internal class TextShape : IShape
